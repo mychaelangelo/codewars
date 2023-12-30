@@ -24,7 +24,6 @@ def expanded_form(num):
     return " + ".join(nums_list_exp)
 
 
-
 test_input = 1023
 print(expanded_form(test_input))
 

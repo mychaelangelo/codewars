@@ -32,31 +32,3 @@ def withdraw(n):
 
     return [hundreds, fifties, twenties]
 
-
-        
-#print(withdraw(60)) # should equal [0, 0, 3]
-
-
-#print(withdraw(230)) # should equal [1, 1, 4]
-
-#print(withdraw(260))  # [2, 0, 3]
-
-#print(withdraw(40)) # should equal [0, 0, 2]
-
-#print(withdraw(250)) # should equal [2, 1, 0]
-
-print(withdraw(370)) # should equal [3, 1, 1]
- 
-# bills are 100, 50, 20
-
-
-"""
-if have 230:
-can split 100, 100, 30
-can split 100,  50, 50, 30
-
-230 [100, 50, 30]
-
-230 - 100 = 130, is that div by 50 or 20? no.
-so 130 - 50 = 80
-"""

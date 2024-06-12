@@ -6,10 +6,8 @@ def calculate_years(principal, interest, tax, desired):
     curr_sum = principal
     while curr_sum < desired:
         net_interest_gained = (curr_sum * interest) * (1.0 - tax)
-        print(f"Net interest:{net_interest_gained}")
         curr_sum += net_interest_gained
         years += 1
-        print(f"After year {years}: P = {curr_sum}")
     return years
 
         
